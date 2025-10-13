@@ -23,6 +23,8 @@ const (
 	LVMCSIDriver = "lvm.driver.harvesterhci.io"
 	// LVMTopologyNodeKey is the key of LVM topology node
 	LVMTopologyNodeKey = "topology.lvm.csi/node"
+	// LonghornSystemNamespaceName is the namespace containing longhorn components
+	LonghornSystemNamespaceName = "longhorn-system"
 )
 
 var CmdTimeoutError error
